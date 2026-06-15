@@ -1,7 +1,7 @@
 from playwright.async_api import async_playwright
 
-AUTH_TOKEN = "8afdbcb11a719877916949f8694f39f9d305b806"
-CT0 = "b569f300ac631962dc0f0c3afddbacf79c3abc1abe6ebb05a460d87f649adb7c2897668553456e03eda2ec453602ec56e9f7fd12918f455e7229bc0e3b3f181afab107c62d3485645f843d48580587b7"
+AUTH_TOKEN = auth
+CT0 = "cto"
 
 async def web_search(query: str) -> str:
     try:
